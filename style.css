@@ -1,0 +1,36 @@
+body {
+  background-color: darkblue;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.frame {
+  max-width: 900px;
+  /* min-width: 320px; */
+
+  margin: 0 auto;
+}
+
+.banner {
+  /* background-image: url('bg1-03.jpg');
+  height: 600px;
+  width: 100%;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; */
+  position: relative;
+  /* padding-top: 66.64%; */
+  /* overflow: hidden; */
+}
+
+.banner-text {
+  position: absolute;
+  top: calc(100% - 60%);
+  left: calc(100% - 85%);
+  font-size: 60px;
+}
